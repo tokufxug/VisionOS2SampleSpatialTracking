@@ -7,7 +7,6 @@
 
 import SwiftUI
 import RealityKit
-import ARKit
 
 struct SpatialTrackingHandView: View {
     
