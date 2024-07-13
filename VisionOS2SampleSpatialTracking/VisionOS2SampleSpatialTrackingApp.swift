@@ -20,7 +20,7 @@ struct VisionOS2SampleSpatialTrackingApp: App {
         .windowStyle(.volumetric)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
-            ImmersiveView()
+            SpatialTrackingHandView()
                 .environment(appModel)
                 .onAppear {
                     appModel.immersiveSpaceState = .open
